@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#F5EFE6">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Product"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FF6B35"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:inputType="number"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:hint="Description"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnAddProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Product"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#FF6B35"/>
+
+    </LinearLayout>
+
+</ScrollView>

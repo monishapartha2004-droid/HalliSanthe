@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#F5EFE6">
+
+        <TextView
+            android:id="@+id/tvDetailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#303F9F"/>
+
+        <TextView
+            android:id="@+id/tvDetailPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹200"
+            android:textSize="22sp"
+            android:textColor="#FF6B35"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toys"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnContactSeller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Seller"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#FF6B35"/>
+
+        <Button
+            android:id="@+id/btnPlaceOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#303F9F"/>
+
+    </LinearLayout>
+
+</ScrollView>

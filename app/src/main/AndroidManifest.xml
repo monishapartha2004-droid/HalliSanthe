@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="Halli-Santhe Digital"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+
+        <activity android:name=".activities.RegisterActivity"/>
+
+        <activity android:name=".activities.TrackOrderActivity"/>
+
+        <activity android:name=".activities.OrdersActivity"/>
+
+        <activity android:name=".activities.ProductDetailActivity"/>
+
+        <activity android:name=".activities.AddProductActivity"/>
+
+        <activity android:name=".activities.ArtisanDashboardActivity"/>
+
+        <activity android:name=".activities.BuyerHomeActivity"/>
+
+        <activity android:name=".activities.LoginActivity"/>
+
+        <activity android:name=".activities.RoleSelectionActivity"/>
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+    </application>
+</manifest>
